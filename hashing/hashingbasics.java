@@ -16,7 +16,7 @@ public class hashingbasics {
         System.out.println(fi.containsKey(1));
         System.out.println(fi.containsValue(2)); //try to avoid because of O(n)
         fi.putIfAbsent(5,6);
-        fi.putIfAbsent(5, 6);djdb
+        fi.putIfAbsent(5, 6);
         fi.putIfAbsent(5, 7);
         fi.putIfAbsent(7, 7);
         for(Map.Entry<Integer,Integer> entry : fi.entrySet())
